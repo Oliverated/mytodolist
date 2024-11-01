@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+:root {
+  --primary: #014c01;
+  --lit-text: #f9ffe9;
+  --linear: linear-gradient(red, green);
+}
+
+main {
+  margin: auto;
+  /* text-align: center; */
+  align-content: center;
+  /* background-color: black; */
+  height: 100vh;
+}
+
+.header {
+  background-color: var(--primary);
+  height: 10vh;
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  align-content: center;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--lit-text);
+  text-align: center;
+}
+
+.header u {
+  text-decoration-color: white;
+}
+
+.inp-block {
+  background-color: white;
+  width: 50%;
+  height: 10vh;
+  align-content: center;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px 0 #d2d8cc;
+  text-align: center;
+}
+
+.inp-block input {
+  height: 10vb;
+  outline: none;
+  width: 80%;
+  border: none;
+  background-color: transparent;
+}
+
+.inp-block button {
+  height: 1.8rem;
+  width: 2.8rem;
+  margin-left: 1%;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: var(--lit-text);
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  align-items: center;
+}
+
+.inp-block button:hover {
+  box-shadow: inset 0px 0px 5px 0 #ebffd9;
+}
+
+.list-block {
+  background-color: transparent;
+  width: 40%;
+  margin: auto;
+  margin-top: .3%;
+  height: 50vh;
+  border-radius: 20px;
+  overflow: auto;
+  scrollbar-width: none;
+  color: var(--primary);
+}
+
+.item-block p {
+  box-shadow: 3px 3px 10px 0 #d2d8cc;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 0 5%;
+  height: 8vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-list {
+  overflow: auto;
+  scrollbar-width: none;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.del {
+  display: block;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 500ms;
+  font-size: 30px;
+}
+
+.del:hover {
+  color: #ff8a8a;
+  rotate: 30deg;
+}
+
+footer {
+  background-color: var(--primary);
+  height: 10vh;
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 0.5%;
+  align-content: center;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--lit-text);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+}
+
+footer em {
+  color: #c5ffbb;
+}
+
+.mark {
+  text-decoration: line-through #ad0000;
+}
