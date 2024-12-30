@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTrash } from "react-icons/fa";
+// import { FaTrash } from "react-icons/fa";
 import { FaTrashCan } from "react-icons/fa6";
 
 export default function Item_comp({ item, list, setList }) {
