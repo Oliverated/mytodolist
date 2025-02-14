@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 // import Item_comp from "./item_comp";
-import Form from "./form";
+import Form from "./Form";
 import List from "./List";
 // import { FaRegTrashAlt, FaTrashAlt } from "react-icons/fa";
 // import { FaTrashCan } from "react-icons/fa6";
